@@ -42,7 +42,7 @@ Main files:
 - **«Lpo.h»** - contains a set of C++ macro definitions that replace common expressions with Leporish words.
 
 ## [Ftl (Fat Lizard)](/Ftl):
-Game design documents for a fantasy life simulator. Planned features:
+Game design documents for a fantasy life simulator. Why name is «Fat Lizard»? Lizards was the first creatures made by goddesses on a Qrl (Cherel) Planet; you can play lizard; you can become fat to store more mana. Other planned features:
 - Open sandbox world with events, small settlements, construction, and a physical economy.
 - Primarily single-character control (first/third person), with party management.
 - Flora and fauna editor.
