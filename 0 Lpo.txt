@@ -1,4 +1,4 @@
-### Leporish Dictionary update 25.06.26 (5645 lemmas)(N1: 03.12.25):
+### Leporish Dictionary update 27.06.26 (5650 lemmas)(N1: 03.12.25):
 //links: https://t.me/LpoFtl   https://vk.com/LpoFtl   //author: https://vk.com/agpucok
 //all: https://github.com/Roflenko/LpoFtl   ,
 // https://drive.google.com/drive/folders/1bAzzh8gHhv9JwHQLpxnrorTEpVuEgBOn?usp=drive_link
@@ -27,8 +27,10 @@
 "a, i, u, e, o, x, w, y, m, p, f, n, t, s, l, r, k, h, c, q, b, v, d, z, g, j"; mnemonic: russian:
 "анимумэно, я, ю, ё, мапаф, нитис, лурук, хэшоч, боводо, загажа" //text-to-speech somewhere
 -- note to better distinguish words boundaries:
-• alterate tone after each word: high - low - high...
+• in word: all syllables after first are in lower tone
 . or use pauses between words
+-- epenthesis: if no vowel after a consonant: pronounce short "э" (0.5 duration)
+//if you don't do this or use full-length "э", word spelling is still recognizable
 -- epenthesis: pronounce short "э":
 • between consonants: "tk->тэк", "mh->мэх"
 • in 1-only-consonant word: "f->фэ"
@@ -946,7 +948,7 @@ wd = ied == whole, unite @ един, единый, единить, объединить, объединение, объед
 ina = naf = inaf = hva = hare == enough, sufficient, fill, enow, sufficient @ достаточно, достаток, достаточный, хватит, хаватает, харэ   ^ adk, gj   //"nf" sounds like opposite meaning
 upw = "moq ina" == surplus, excess, overage @ профицит, избыток, избыточно, избыточный, излишек, излишне, излишества, сальдо, эксцесс   ^ pw
 lk = dfi = defi = "n ina" == deficit, deficiency, lack, scarcity, scarce @ дефицит, дефицитный, нехватка, недостача, недостающий
-rav == equal, equals, equally, equivalent @ численное равно, равняться, полное соответствие    ^ ra
+rav == equal, equals, equally, equivalent @ численное равно, равняться, полное соответствие, равенство, равный    ^ ra
 ravo == evenly, uniformity, equally @ равномерно, равномерный, равномерность, поровну
 urv = urav = "rav a" == equation @ уравнение   ^ sisu, dfu
 nrv = nrav = "n rav a" == inequality, disparity, imparity @ неравенство
@@ -1727,6 +1729,7 @@ izvt == lime @ известь, известка
 emr = emra = emral == emerald @ изумруд
 saf = sapf == sapphire @ сапфир
 ubi = rubi == ruby @ рубин, рубиновый
+kvaz = kvats == quartz, quartzite @ кварц, кварцевый
 
 -- biochemistry
 jihi = jihim = biohim = "ji him" == biochemistry, biochemia @ биохимия
@@ -2087,7 +2090,7 @@ ovqi = "ovq i" == sheep (plural) @ овцы
 xgn = lamb = "ovq yn" == lamb @ ягнёнок, дитя овцеподобного, агнец
 git = goat == goat @ коза, козёл, козлёнок
 pig == pig (any gender), pork @ свинья (любого пола), свиной, свинина
-pigv = "pig ov" == male pig @ свин, кабан (самец свиньи)
+pigv = hrxk = "pig ov" == male pig @ свин, кабан (самец свиньи), хряк
 pigs = pigsa = "pig sa" == female pig @ свинья (самка)
 piy = pigy = pigi = pigl "pig yn" == piglet, piggy @ поросёнок
 liz == lizard, pangolin @ ящер, ящерица   ^ lizi, lizo, liza
@@ -2828,8 +2831,9 @@ bas == bath, bathe @ купаться, купать, купание, мыться, помыться  ^ voc, bsrum
 bsr = basu = bsrum = "bas rum" == bathroom @ ванная комната
 ers = dpc = dipc == disperse, dispersion, springen @ рассеять, рассеивать, рассеянный, дисперсия   ^ sex, ersk
 ersk == sprinkler @ сприклер, рассеиватель, разбрызгиватель
-lom = brik == break, destroy, destruct @ ломать, разрушить, руины, сокрушённый, крах, рухнуть, обрушение, уничтожить, уничтожать   ^ mk, dsr
-dsr = ruin = "ef lom" == broke, broken, ruin, collapse @ сломать, сломанный, поломать, разрушенный, разрушать, уничтоженный, уничтожено, коллапс, обрушить, обрушиться, обрушеие   ^ krc, orq, brc, mll
+lom = brik == break, destroy, destruct @ ломать, разрушить, сокрушённый, крах, рухнуть, обрушение, уничтожить, уничтожать   ^ mk, dsr
+dsr = "ef lom" == broke, broken, collapse @ сломать, сломанный, поломать, разрушенный, разрушать, уничтоженный, уничтожено, коллапс, обрушить, обрушиться, обрушеие   ^ krc, orq, brc, mll
+ruin == ruin @ руины, руинный
 izn = izno = iznos == wear and tear, worn, wear @ износ, изношенный, изнашиваться, изнашивать
 mll = grind == grind @ мелить, молоть, растереть, растерать   ^ mlx, dsr, qop
 srw = sruk == struct @ структура, структурный, структурировать, строение   ^ isrw, kpz, fom, ild
@@ -4601,6 +4605,7 @@ totm == totem @ тотем
 boj = diva == divine @ близкий к богу, божественный, обожествлять   ^ god
 ere = eres = eresi == heresy @ ересь, еретический
 err = erer = "ere er" == heretic @ еретик
+trac = tranc == trance, entrancement @ транс, трансовый
 
 -- divine creatures:
 god = bog = dios == god, dios @ бог   ^ boj, godi
@@ -5130,6 +5135,7 @@ rfc == preference @ предпочтение, предпочитать, предпочитающий, взгляд   ^ rfd
 rfd = rfdr = trnd = "rfc dr" == trend @ тренд, трендовый
 ogz = ogzm == orgasm @ оргазм
 glhtr = glhytr = "gl hyt er" == misogynist, misogynistic @ женоненавистник
+isc = disc == discipline, disciplined @ дисциплина, дисциплинированный
 
 -- positive traits
 nr = nra = laik == like @ нравится, нравиться, понравившийся, понравиться   ^ nnr, lw
@@ -5269,6 +5275,7 @@ hvl = hval = preiz == praise, compliment @ хвалить, похвалить, хвала, похвала, х
 kqs = kaqs == quality @ качество, качественный, качественно
 vrz = vorz == worth, worthy @ достойный, достойно, достоинство
 vrzm = "vrz zm" == meritocracy, authority of worthy @ меритократия, власть достойных
+estz = estaz == ecstasy @ экстаз, иступлённый восторг, исступление
 
 -- negative traits
 bd == bad @ плохо, плохой, плохеть
@@ -6444,7 +6451,7 @@ tridom = "tri dom"== tree house @ древесный дом
 2. zi sog.d co un hu 1e sax ars trvr pts qs plc bu kut ws.ei qm az
 3. zy Orz Zf dut jy ka kn, no mo dut so mo uz trvr okw f plc; & f la Orz Zf ff att
 4. zy Sol vom six, & imi trvr pts qs plc
-5. & so Orz Zf mz.d nfs co Sol vy ws.eq of 2
+5. & so Orz Zf mz.d nfs co Sol vy ws.eq of 2ё
 -- camelCase Lpo [213 gli]:
 1. OrzZf&Sol.vyAguVqWsEq,vTrvrKamWkwDFVomPlc
 2. ziSogDCoUnHu.1eSaxArsTrvrPtsQsPlcBuKutWsEiQmAz
@@ -6454,6 +6461,6 @@ tridom = "tri dom"== tree house @ древесный дом
 -- Lpo pronounce in Russian (advisable to alter each word tone):
 1. Орэзэ Зэф эн Сол вё агу вэч юс эч, вэ тэрэвэр кам юкю дэ фэ вом пэлэш
 2. зи согэ дэ шо ун ху ун э сая арэс тэрэвэр пэтэс чэс пэлэш бу кут юс эи чэм азэ
-3. зё Орэзэ Зэф дут жэё ка кэн, но мо дут со мо узэ тэрэвэр окю ф пэлэш; эн фэ ла Орэзэ Зэф фэф атэт
+3. зё Орэзэ Зэф дут жэё ка кэн, но мо дут со мо узэ тэрэвэр окю фэ пэлэш; эн фэ ла Орэзэ Зэф фэф атэт
 4. зё Сол вом сия, эн ими тэрэвэр пэтэс чэс пэлэш
 5. эн со Орэзэ Зэф мэзэ дэ нэфэс шо Сол вё юс эч оф дуф
